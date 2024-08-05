@@ -1,0 +1,1 @@
+Collection of notebooks from [Dr.Fred Baptiste course on Python](https://www.udemy.com/user/fredbaptiste/])
