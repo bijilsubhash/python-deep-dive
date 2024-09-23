@@ -1,6 +1,7 @@
 import common
 import common.validators as validators
 import common.models as models
+import common.helpers as helpers
 
 validators.json.is_json('{"name": "John", "age": 30}')
 validators.date.is_date('2023-01-01')
@@ -34,3 +35,10 @@ for k in common.models.users.__dict__.keys():
 john_post = models.Post()
 john_posts = models.Posts()
 john = models.User()
+
+calc = helpers.Calc()
+print(helpers.factorial(5))
+helpers.say_hello()
+
+import asyncio
+import email
