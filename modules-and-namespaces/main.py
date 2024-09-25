@@ -1,3 +1,6 @@
+import sys
+sys.path.append('./common.zip')
+
 import common
 import common.validators as validators
 import common.models as models
