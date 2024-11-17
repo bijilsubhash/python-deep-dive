@@ -1,0 +1,2 @@
+<_io.TextIOWrapper name='out.txt' mode='w' encoding='utf-8'>
+hello world
